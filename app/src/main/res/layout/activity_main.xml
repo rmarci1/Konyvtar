@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    >
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title" />
+
+    <EditText
+        android:id="@+id/edit_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author Name" />
+
+    <EditText
+        android:id="@+id/edit_pages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Pages"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book" />
+
+    <ListView
+        android:id="@+id/book_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
